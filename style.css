@@ -1,0 +1,204 @@
+/* TIPOGRAFÍA GENERAL */
+body {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+/* HERO (centrado) */
+.hero {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* FOTO PERFIL */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #2563eb;
+}
+
+/* NOMBRE */
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+/* SUBTÍTULO */
+.title-blue {
+  color: #3b82f6;
+  font-size: 20px;
+}
+
+/* TEXTO DESTACADO */
+.highlight {
+  font-size: 18px;
+  color: #94a3b8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* CONTACTO */
+.contact-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* BOTONES */
+.button-group {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.button-group a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 22px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.button-group a:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* CONTENIDO PRINCIPAL */
+.main-content {
+  background-color: #e5e7eb;
+  color: #111827;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* TÍTULOS GENERALES (HERO + FOOTER) */
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #f9fafb;
+}
+
+/* TÍTULOS DENTRO DEL BLOQUE CLARO */
+.main-content h2 {
+  color: #111827;
+}
+
+/* SUBTÍTULOS */
+h3 {
+  margin-top: 25px;
+}
+
+/* TEXTO BLOQUE CLARO */
+.main-content p,
+.main-content li {
+  color: #374151;
+}
+
+/* LISTAS */
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* SEPARADORES */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #334155;
+  margin: 40px 0;
+}
+
+/* LINKS GENERALES */
+a {
+  color: #60a5fa;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== MÉTRICAS ===== */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* NÚMEROS */
+.metric h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+.metric p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #374151;
+  max-width: 220px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* ===== FOOTER FINAL ===== */
+.footer-section {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  padding: 40px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.footer-section p {
+  color: #cbd5f5;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+.footer-section .button-group {
+  text-align: center;
+}
+
+/* FIX: título en sección final */
+.footer-section h2 {
+  color: #f9fafb;
+}
